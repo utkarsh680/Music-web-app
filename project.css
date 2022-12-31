@@ -1,0 +1,485 @@
+body{
+
+     /*box-sizing: border-box;*/
+  margin: 0px;
+  padding: 0px;
+ background-image: linear-gradient(black,#4d0404);
+    
+
+}
+
+.navigation{
+    width: 95%;
+	display: grid;
+    align-items: baseline;
+    align-items: flex-start;
+    position: sticky;
+    top: 0%;
+    grid-template-columns: 20% 30% 25% 23% 0%;
+    background-color: black;
+    
+
+}
+.logo-image img{
+    height: 80px;
+    width: 80px; 
+    border-radius: 30%; 
+    margin-left: 80px;  
+    margin-top:8px;
+}
+.choice{
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    color: white;
+   
+  
+}
+.search  input{
+    margin-top: 25px;
+    background-image: linear-gradient( #1f0404);
+     padding: 6px 30px 6px 30px;
+     border-top-style: hidden;
+     border-right-style: hidden;
+     border-left-style: hidden;
+     /*border-bottom-style: groove;*/
+     border-radius: 30px;
+ }
+
+.search i{
+    color: white;
+
+}
+.notification i{
+         margin-top: 30px;
+         color: white;
+
+}
+.notification i:hover{
+    color: red;
+}
+
+
+.profile img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+.profile img:hover{
+    height: 70px;
+    width: 70px;
+     border-radius: 50%;
+
+}
+ /*here we done with my navigation thanks*/
+
+ /*here we start our main part*/
+.middle {
+    margin-left: 100px;
+}
+.main-section1 {
+    height: 320px;
+    
+   position: sticky;
+    top: 15%;
+   margin: 50px 0px 0px 0px;
+    display: grid;
+   text-align: justify;
+   background-image: url('images/kingbhai1.jfif');
+   background-size: cover;
+      box-shadow: inset 20px -36px 64px #1f0404;
+}
+
+
+
+
+}
+
+
+.middle .heading{
+    margin-top: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: -50px;
+     color: white;
+     font-size: 20px;
+
+}
+.middle .band-name{
+    margin-top: -12px;
+    font-family: sans-serif;
+    margin-left: -50px;
+     color: darkgrey;
+
+}
+.middle .paragraph{
+    margin-top: -10px;
+    color: grey;
+    margin-left: -50px;
+     color: grey;
+     font-size: 15px;
+  
+}
+.play-all-botton{
+    margin-left: 84%;
+    margin-top: -28%;
+      
+}
+.follow{
+    margin-right: 20px;
+    margin-top: -50px;
+    font-size: 20px;
+     font-family: sans-serif;
+     color: white;
+     display: flex;
+     justify-content: end;
+}
+.follow p:hover{
+    color: blue;
+}
+button[type = "submit"]{
+    border: none;
+  color: white;
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-image: linear-gradient( 45deg,black 30%, darkred 70%);
+ 
+    height: 30px;
+    width: 100px;
+    
+}
+
+
+/*here we start our aside part*/
+
+
+.main-section{
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+
+
+.artist-info2{
+    display: flex;
+
+}
+ 
+
+.side-part{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+/*.aside-image-decor1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+}*/
+.aside-image-decor2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: -40px;
+    margin-left: 10px;
+
+}
+.aside-image-decor2 .artist-info2 img{
+    height: 50px;
+    width: 50px;
+
+
+}
+
+
+.side-part div img{
+    height: 100px;
+    width: 100px;
+    margin: 8px;
+}
+.side-part{
+    margin-left: 15px;
+}
+.side-part .Artist-heading{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    font-family:sans-serif;
+    margin-left:8px ;
+    margin-top: 40px;
+    font-size: 18px;
+
+}
+
+
+.Artist-heading>p {
+    justify-self: flex-end;
+    margin-right: 55px;
+}
+.Artist-heading>h4{
+    font-size: 12px;
+    margin-left: 35px;
+}
+.side-part .artist-info1{
+    display: grid;
+    grid-template-columns: 2fr 5fr 1fr 1fr; 
+ }
+.aside-image-decor2 .artist-info2{
+    display: grid;
+    grid-template-columns: 0fr 0.5fr 2fr 0.7fr; 
+ }
+
+
+
+ .song-and-band {
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+ }
+ .song-and-band .band{
+    color: darkgrey;
+ }
+ .song-and-band>.song-name{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+ }
+ .song-and-band>.band{
+    margin-top: -7px;
+ }
+
+ .song-name-band-name >.band-song{
+    margin-top: -15px;
+    font-size: 12px;
+ }
+ .song-name-band-name>.name-song{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: sans-serif;
+ }
+ .dot-and-time>p{
+    margin-top: 2px;
+    margin-left: -6px;
+ }
+ .dot-and-time{
+    margin-top: 8px;
+ }
+ .heart{
+    margin-top: 13px;
+ }
+
+.lower-section {
+    overflow: auto;
+}
+.main-section2{
+
+    display: grid;
+    grid-template-columns: 0.3fr 0.5fr 2.5fr 5fr 1fr  1fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+    border-radius: 15px;
+}
+
+.divider {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+   
+
+}
+
+.verified {
+    display: flex;
+
+}
+.main-section2 .Artist-name{
+    font-size: 12px;
+    margin-top: -12px;
+    color: darkgrey;
+}
+.main-section2>img{
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+}
+
+.main-section2>p{
+    color: white;
+}
+.main-section2>i{
+    color: white;
+    margin-top: 13px;
+}
+
+/*some basic style with hover*/
+.main-section2:hover{
+    height: 7%;
+    width: 100%;
+    background-color: #520b0b;
+}
+
+@keyframes bounce{
+    from{
+        transform: translateX(-40px);
+    }
+    25%{
+        tranform:translateX(40px);
+    }
+    50%{
+        transform:translateX(-10px)
+    }
+    75%{
+        transform:translateX(10px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.artist-info1 img:hover {
+  height: 100px;
+  width: 100px;
+  position: relative;
+ 
+  left: 20px;
+  background-color: aqua;
+  animation: bounce 2s ease-in-out 1 alternate;
+    
+}
+.artist-info2:hover{
+  height: auto;
+    width: 94%;  
+    padding-left: 10px;
+    border-radius: 12px;
+    background-color: #700202;
+
+}
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    bottom: 0%;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+.current-artist-playing>img{
+    height: 50px;
+    width: 50px;
+    margin-top: 14px;
+}
+
+.current-artist-playing {
+    display: flex;
+    margin-left: 100px;
+
+}
+
+footer i, p {
+    color: white;
+}
+
+.media-controls {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+.media-upper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.media-lower {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.side-control{
+    display: grid;
+   grid-template-columns:  0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+   margin-top: 27px;
+
+}
+.side-control i{
+    color: darkgrey;
+}
+.extra-controls{
+    margin-left: 140px;
+}
+
+
+
+.song-timeline {
+    display: flex;
+    align-self: center;
+    width: 80%;
+    height: 5px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.song-progress {
+    width: 20%;
+    height:  5px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.gola {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: center;
+}
+
+.volume-timeline {
+    display: flex;
+    align-self: center;
+    width: 80%;
+    height: 5px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.volume-progress {
+    width: 20%;
+    height:  5px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.volume-gola  {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: center;
+}
+.aside-image-decor2{
+        margin-top: 60px;
+        padding-bottom: 45px;
+        padding-left: 20px;
+        height: 25%;
+        width: 90%;
+        background-image: linear-gradient(black,#4d0404);
+        border-radius: 50px;
+
+}
