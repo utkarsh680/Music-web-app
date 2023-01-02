@@ -4,7 +4,8 @@ body{
   margin: 0px;
   padding: 0px;
  background-image: linear-gradient(black,#4d0404);
-    
+ overflow: hidden;
+ 
 
 }
 
@@ -78,6 +79,7 @@ body{
  /*here we start our main part*/
 .middle {
     margin-left: 100px;
+  
 }
 .main-section1 {
     height: 320px;
@@ -95,7 +97,7 @@ body{
 
 
 
-}
+
 
 
 .middle .heading{
@@ -163,6 +165,8 @@ button[type = "submit"]{
 .main-section{
     display: grid;
     grid-template-columns: 60% 30%;
+    
+   
 }
 
 
@@ -190,14 +194,14 @@ button[type = "submit"]{
     justify-content: center;
     flex-direction: column;
     color: white;
-    margin-top: -40px;
-    margin-left: 10px;
+    /* margin-top: -40px;
+    margin-left: 10px; */
+    
 
 }
 .aside-image-decor2 .artist-info2 img{
     height: 50px;
     width: 50px;
-
 
 }
 
@@ -239,8 +243,6 @@ button[type = "submit"]{
     grid-template-columns: 0fr 0.5fr 2fr 0.7fr; 
  }
 
-
-
  .song-and-band {
     display: flex;
     flex-direction: column;
@@ -279,8 +281,18 @@ button[type = "submit"]{
  }
 
 .lower-section {
-    overflow: auto;
+    height: 584px;
+    width: 100%;
+      
 }
+.lower-section{
+    max-height: 396px;
+    overflow-y: auto; 
+} 
+.lower-section::-webkit-scrollbar{
+    display: none;
+}
+    
 .main-section2{
 
     display: grid;
@@ -325,8 +337,7 @@ button[type = "submit"]{
 
 /*some basic style with hover*/
 .main-section2:hover{
-    height: 7%;
-    width: 100%;
+    border:none; 
     background-color: #520b0b;
 }
 
@@ -358,10 +369,9 @@ button[type = "submit"]{
     
 }
 .artist-info2:hover{
-  height: auto;
-    width: 94%;  
-    padding-left: 10px;
-    border-radius: 12px;
+  border:none; 
+   
+    border-radius: 12px; 
     background-color: #700202;
 
 }
@@ -474,7 +484,7 @@ footer i, p {
     align-self: center;
 }
 .aside-image-decor2{
-        margin-top: 60px;
+        margin-top: 30px;
         padding-bottom: 45px;
         padding-left: 20px;
         height: 25%;
